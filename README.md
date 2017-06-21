@@ -1,5 +1,5 @@
 # Ejercicios Criptografía I
-Algunos POC de los ejercicios de Criptografía I del Master en Seguridad en Informática en la Universidad de Buenos Aires resueltos en python 3.
+Algunos POC de los ejercicios de Criptografía I del Master en Seguridad en Informática en la Universidad de Buenos Aires hechos en python 3.
 
 ## Ejercicios RSA
 ### Guia 2
