@@ -1,5 +1,5 @@
 # Ejercicios Criptografía I
-Algunos ejercicios de Criptografía I del Master en Seguridad en Informática en la Universidad de Buenos Aires resueltos en python.
+Algunos ejercicios de Criptografía I del Master en Seguridad en Informática en la Universidad de Buenos Aires resueltos en python 3.
 
 ## Ejercicios RSA
 ### Ejercicio 8 :
