@@ -1,8 +1,9 @@
 # Ejercicios Criptografía I
-Algunos ejercicios de Criptografía I del Master en Seguridad en Informática en la Universidad de Buenos Aires resueltos en python 3.
+Algunos POC de los ejercicios de Criptografía I del Master en Seguridad en Informática en la Universidad de Buenos Aires resueltos en python 3.
 
 ## Ejercicios RSA
-### Ejercicio 7 :
+### Guia 2
+#### Ejercicio 7 :
 ```> python ej_7.py```
 
 Alicia y Pedro suelen comunicarse utilizando RSA y la siguiente clave pública (e, n) = (5, 967331). Por un descuido de Alicia, Oscar se apodera de phi(n) = 965352. Se pide:
@@ -10,7 +11,7 @@ Alicia y Pedro suelen comunicarse utilizando RSA y la siguiente clave pública (
 2. Ahora que Oscar tiene (d, n), qué daños puede ocasionar a Alicia y Pedro, sin que estos se den cuenta.
 3. Es claro que se necesita phi(n) para determinar valores válidos de e y de d. ¿Qué tenemos que hacer con phi(n) una vez que ya no lo utilizamos?
 
-### Ejercicio 8 :
+#### Ejercicio 8 :
 ```> python ej_8.py```
 
 Consideremos la siguiente implementación de RSA. 
