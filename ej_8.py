@@ -57,14 +57,10 @@ print("\nHallo el inverso multiplicativo de c_j modulo n")
 inv_j = find_inverse(c_j , n)
 if(inv_j < 0):
 	inv_j = n - inv_j
+	
 print("inv_j: ", inv_j)
 
 print("\nDesencripto utilizando m = c_i^alpha * inv_j^|beta| (mod n)")
 m = (pow(c_i, alpha) * pow(inv_j, abs(beta))) % n
-print("Mensaje:")
-print(m)
-
-print("\nDesencripto utilizando m = c_i^beta * inv_j^beta (mod n)")
-m = (pow(c_j, abs(beta)) * pow(inv_i, abs(alpha))) % n
 print("Mensaje:")
 print(m)
