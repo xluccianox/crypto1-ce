@@ -1,6 +1,11 @@
 # Ejercicios Criptografía I
 Algunos POC de los ejercicios de Criptografía I del Master en Seguridad en Informática en la Universidad de Buenos Aires hechos en python 3.
 
+
+![SMBC Comics](http://www.smbc-comics.com/comics/1499088348-20170703.png)
+> https://www.smbc-comics.com/comic/encryption
+> - SMBC by Zach Weinersmith
+
 ## Ejercicios RSA
 ### Guia 2
 #### Ejercicio 7 :
