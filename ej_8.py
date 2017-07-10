@@ -14,7 +14,7 @@ def eea(a,b):
 # Ver: http://en.wikipedia.org/wiki/Modular_multiplicative_inverse
 def find_inverse(x,y):
 	inv = eea(x,y)[0]
-	#if inv < 1: inv += y #we only want positive values
+	if inv < 1: inv += y #we only want positive values
 	return inv
 
 print ("8) Consideremos la siguiente implementación de RSA. Una autoridad confiable elige dos primos grandes p y q y computa n = p * q que será utilizado por todos los usuarios. La autoridad le brinda a cada usuario una clave privada d_i y e_i tal que e_i != e_j si i != j.")
@@ -49,14 +49,10 @@ print("beta: ", beta)
 
 print("\nHallo el inverso multiplicativo de c_i modulo n")
 inv_i = find_inverse(c_i , n)
-if(inv_i < 0):
-	inv_i = n - inv_i
-print("inv_i: ",inv_i)
+print("inv_i: ", inv_i)
 
 print("\nHallo el inverso multiplicativo de c_j modulo n")
 inv_j = find_inverse(c_j , n)
-if(inv_j < 0):
-	inv_j = n - inv_j
 	
 print("inv_j: ", inv_j)
 
